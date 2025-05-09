@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Face Recognition System - Detect and recognize faces with age and gender information">
+    <meta name="keywords" content="face recognition, age detection, gender detection, AI, machine learning">
+    <meta property="og:title" content="Face Recognition System">
+    <meta property="og:description" content="Advanced face recognition system with age and gender detection capabilities">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Face Recognition System">
+    <meta name="twitter:description" content="Advanced face recognition system with age and gender detection capabilities">
+    <title>Face Recognition System</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Change to a more reliable CDN for face-api.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.12/dist/face-api.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/VideoStream.js"></script>
+    <script type="text/babel" src="components/FaceList.js"></script>
+    <script type="text/babel" src="components/AddFaceDialog.js"></script>
+    <script type="text/babel" src="utils/faceDetection.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
